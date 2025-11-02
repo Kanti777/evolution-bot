@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+npm-debug.log*
+
+# environment variables
+.env
+.env.local
+
+# database
+*.db
+*.sqlite
+
+# logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,30 @@
+{
+  "name": "evolution-bot",
+  "version": "1.0.0",
+  "description": "Evolution Crypto Bot for Telegram",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo 'No build step needed'"
+  },
+  "keywords": ["telegram", "bot", "crypto", "ton"],
+  "author": "Evolution Team",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.33.0",
+    "@ton/core": "^0.57.3",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "^13.9.0",
+    "@orbs-network/ton-access": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
